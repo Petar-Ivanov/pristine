@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(244, 252, 253);
+    font-family: sans-serif !important;
+}
+.description{
+    padding-left: 5% !important;
+}
+.description p{
+   width: 75%;
+   padding-left: 5% !important;
+}

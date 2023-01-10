@@ -1,0 +1,145 @@
+.footer{
+    /*text-align: center;*/
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(47, 49, 58);
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.grid-wrapper-footer{
+    display: grid;
+    grid-template-columns: 22% 22% 15% 15%;
+    grid-column-gap: 4%;
+    justify-content: center;
+}
+
+.footer-col{
+    vertical-align: top;
+    /*display: inline-block;*/
+    /*width: 20%;*/
+    text-align: left;
+    line-height: 30px;
+    /*margin-left: 2%;*/
+    /*position: relative;*/
+    opacity: 90%;
+    
+}
+
+.footer-col a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-col a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.footer-col ul{
+    list-style-type: none;
+}
+
+.footer-col img{
+    width: 20px;
+}
+
+.col-h{
+    text-transform: uppercase;
+    margin-bottom: 10%;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.footer hr{
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    opacity: 10%;
+    width: 90%;
+}
+
+.copyright, .grid-wrapper-footer > hr{
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+#locations{
+    grid-column: 1 / 2;
+}
+
+#contacts{
+    grid-column: 2 / 3;
+}
+
+#operations{
+    grid-column: 3 / 4;
+}
+
+#quick-ls{
+    grid-column: 4 / 5;
+}
+
+@media screen and (max-width: 1400px) {
+    .grid-wrapper-footer{
+        display: grid;
+        grid-template-columns: 22% 30% 15% 15%;
+        grid-column-gap: 4%;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 992px) {
+    .grid-wrapper-footer{
+        grid-template-columns: 40% 40%;
+    }
+
+    #locations{
+        grid-column: 1 / 2;
+    }
+    
+    #contacts{
+        grid-column: 2 / 3;
+    }
+    
+    #operations{
+        grid-column: 1 / 2;
+    }
+    
+    #quick-ls{
+        grid-column: 2 / 3;
+    }
+
+    .footer-col{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid-wrapper-footer{
+        grid-template-columns: 80%;
+    }
+    #locations{
+        grid-column: 1 / -1;
+    }
+    
+    #contacts{
+        grid-column: 1 / -1;
+    }
+    
+    #operations{
+        grid-column: 1 / -1;
+    }
+    
+    #quick-ls{
+        grid-column: 1 / -1;
+    }
+}
+@media screen and (max-width: 576px) {
+    .grid-wrapper-footer{
+        grid-template-columns: 90%;
+    }
+}

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domestic cleaning | Pristine Cleaning UK</title>
+
+    <link href="styles/footer.css" rel="stylesheet">
+    <link href="styles/header.css" rel="stylesheet">
+    <!--<link href="bootstrap/css/bootstrap.css" rel="stylesheet" >-->
+    <link href="styles/booking.css" rel="stylesheet">
+    <link rel="icon" href="images/head_logo2.png" type="image/icon type">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--<script src="bootstrap/js/bootstrap.js"></script>-->
+    <script src="scripts/header.js" defer></script>
+</head>
+<body>
+    <header id="header-container" class="header">
+        <div class="grid-wrapper-header">
+            <div class="info-section contact-row">
+                <a href="booking.html">Book Online Now</a> or Call For Any Questions:<a href="tel:+447563016044"> +447563016044</a> • Mon - Sun: 8am - 8pm
+            </div>
+            <div class="media-section contact-row">
+                <a href="https://www.facebook.com/pristinecleaningreading"><img src="images/facebook.png" alt="facebook"></a>
+            </div>
+            <div class="logo nav-row">
+                <a href="index.html"><img src="images/logo.png" alt="PristineCleaning"></a>
+            </div>
+            <nav class="header-nav nav-row">
+                <ul class="horizontal-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="index.html#why-us">Why Us</a>
+                    </li>
+                    <li>
+                        <a href="index.html#contacts-loc">Contacts</a>
+                    </li>
+                    <li>
+                       <a href="index.html#faq">FAQ</a>
+                   </li>
+                    <li>
+                        <a href="#" class="active-tab">Book Online</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="menu-btn" onclick="dropdown()" onchange=""><img src="images/menu.png"></div>
+            <div class="dropdown" id="dropdown">
+                <ul>
+                    <li>
+                        <hr>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <hr>
+                        <a href="index.html#services">Services</a>
+                    </li>
+                    <li>
+                        <hr>
+                        <a href="index.html#why-us">Why Us</a>
+                    </li>
+                    <li>
+                        <hr>
+                        <a href="index.html#contacts-loc">Contacts</a>
+                    </li>
+                    <li>
+                        <hr>
+                       <a href="index.html#faq">FAQ</a>
+                   </li>
+                    <li>
+                        <hr>
+                        <a href="booking.html">Book Online</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+          <div class="container my-5">
+            <div class="card">
+              <form id="form" action="https://formsubmit.co/petar.ivanov3003@gmail.com" method="POST" >
+                <!-- Card header -->
+                <div class="card-header py-4 px-5 bg-light border-0">
+                  <h4 class="mb-0 fw-bold">BOOK ONLINE</h4>
+                  <p class="text-muted">Enter the information required and get a free quote. The quote is recieved by email in 1-2 hours.</p>
+                </div>
+          
+                <!-- Card body -->
+                <div class="card-body px-5">
+                  <!---->
+                  <div class="row gx-xl-5">
+                    <div class="col-md-4">
+                      <h5>STEP 1: Personal Information</h5>
+                      <p class="text-muted">This information will be used to contact you about your service.</p>
+                    </div>
+          
+                    <div class="col-md-8">
+                      <div class="mb-3">
+                        <label for="first-name" class="form-label">First Name*</label>
+                        <input type="text" class="form-control" id="first-name" name="First Name" style="max-width: 500px;" required/>
+                      </div>
+                      <div class="mb-3">
+                        <label for="last-name" class="form-label">Last Name*</label>
+                        <input type="text" class="form-control" id="last-name" name="Last Name" style="max-width: 500px;" required/>
+                      </div>
+                      <div class="mb-3">
+                        <label for="mail" class="form-label">Email Address*</label>
+                        <input type="email" class="form-control" id="mail" name="Email" style="max-width: 500px;" required />
+                      </div>
+                      <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number*</label>
+                        <input type="tel" class="form-control" id="phone" name="Phone" style="max-width: 300px;" required/>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <hr class="my-5" />
+          
+                  <!---->
+                  <div class="row gx-xl-5">
+                    <div class="col-md-4">
+                      <h5>STEP 2: Address</h5>
+                      <p class="text-muted">Where would you like the cleaning?</p>
+                    </div>
+          
+                    <div class="col-md-8">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="mb-3">
+                            <label for="address" class="form-label">Address*</label>
+                            <input type="text" class="form-control" id="address" name="Address" required/>
+                          </div>
+                        </div>
+          
+                        <div class="col-md-6">
+                          <label for="city" class="form-label">City*</label>
+                          <select id="city" name="City" class="form-select mb-3" aria-label="Default select example" required>
+                            <option selected value="Reading">Reading</option>
+                            <option value="Wokingham">Wokingham</option>
+                            <option value="Bracknell">Bracknell</option>
+                          </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="line-2" class="form-label">Line 2</label>
+                            <input type="text" class="form-control" id="line-2" name="Line 2" style="max-width: 800px;" />
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <hr class="my-5" />
+          
+                  <!---->
+                  <div class="row gx-xl-5">
+                    <div class="col-md-4">
+                      <h5>STEP 3: Service</h5>
+                      <p class="text-muted">Describe the service and your home.</p>
+                    </div>
+          
+                    <div class="col-md-8">
+          
+                      <div class="row">
+                        <div class="col-md-6">
+                            <label for="service" class="form-label">Service*</label>
+                            <select id="service" name="Service" class="form-select mb-3" aria-label="Default select example" required>
+                              <option selected value="Home Cleaning">Home Cleaning</option>
+                              <option value="Maid Services">Maid Services</option>
+                              <option value="Move In / Out Cleaning">Move In / Out Cleaning</option>
+                              <option value="Commercial Cleaning">Commercial Cleaning</option>
+                            </select>
+                          </div>
+          
+                        <div class="col-md-6">
+                          <label for="area" class="form-label">Area (in feet)*</label>
+                          <select id="area" name="Area" class="form-select mb-3" aria-label="Default select example" required>
+                            <option selected value="0-999">0-999</option>
+                            <option value="1000-1499">1000-1499</option> 
+                            <option value="1500-1999">1500-1999</option>
+                            <option value="2000+">2000+</option>
+                          </select>
+                        </div>
+                      </div>
+          
+                      <div class="row">
+                        <div class="col-md-6">
+                            <label for="bedrooms" class="form-label">Number of Bedrooms*</label>
+                            <select id="bedrooms" name="Bedrooms" class="form-select mb-3" aria-label="Default select example" required>
+                              <option value="0">No Bedrooms</option>
+                              <option selected value="1">Studio</option>
+                              <option value="2">Two Bedrooms</option>
+                              <option value="3">Three Bedrooms</option>
+                              <option value="4">Four Bedrooms</option>
+                              <option value="5">Five Bedrooms</option>
+                              <option value="6">Six Bedrooms</option>
+                              <option value="7">Seven Bedrooms</option>
+                              <option value="8">Eight Bedrooms</option>
+                            </select>
+                          </div>
+          
+                        <div class="col-md-6">
+                            <label for="bathrooms" class="form-label">Bathrooms*</label>
+                            <select id="bathrooms" name="Bathrooms" class="form-select mb-3" aria-label="Default select example" required>
+                              <option value="0">No Bathrooms</option>
+                              <option selected value="1">One Bathroom</option>
+                              <option value="2">Two Bathrooms</option>
+                              <option value="3">Three Bathrooms</option>
+                              <option value="4">Four Bathrooms</option>
+                              <option value="5">Five Bathrooms</option>
+                              <option value="6">Six Bathrooms</option>
+                              <option value="7">Seven Bathrooms</option>
+                              <option value="8">Eight Bathrooms</option>
+                            </select>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <hr class="my-5" />
+          
+                  <!---->
+                  <div class="row gx-xl-5">
+                    <div class="col-md-4">
+                      <h5>STEP 4: Extras</h5>
+                      <p class="text-muted">Please select all extras that you need!</p>
+                    </div>
+          
+                    <div class="col-md-8">
+                      <div class="row">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="yes" id="today" name="Clean Today">
+                            <label class="form-check-label" for="today">
+                              Cleaning Today
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="yes" id="eco" name="Eco">
+                            <label class="form-check-label" for="eco">
+                              Eco Friendly Products
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="yes" id="garage" name="Garage">
+                            <label class="form-check-label" for="garage">
+                              Garage
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="yes" id="balcony" name="Balcony">
+                            <label class="form-check-label" for="balcony">
+                              Balcony
+                            </label>
+                          </div>
+                      </div>  
+                    </div>
+
+                    <hr class="my-5" />
+                    <!---->
+                    <div class="row gx-xl-5">
+                        <div class="col-md-4">
+                          <h5>STEP 5: Time</h5>
+                          <p class="text-muted">Choose when and how often should your space be cleaned.</p>
+                        </div>
+              
+                        <div class="col-md-8">
+              
+                          <div class="row">
+                            <div class="col-md-12">
+                                <label for="reps" class="form-label">How Often*</label>
+                                <select id="reps" name="How Often" class="form-select mb-3" aria-label="Default select example" required>
+                                  <option selected value="One Time">One Time</option>
+                                  <option value="Every Week">Every Week</option>
+                                  <option value="Every Two Weeks">Every Two Weeks</option>
+                                  <option value="Every Three Weeks">Every Three Weeks</option>
+                                  <option value="Every Month">Every Month</option>
+                                </select>
+                              </div>
+                          </div>
+              
+                          <div class="row">
+                            <div class="col-md-6">
+                                <label for="datetime" class="form-label">Date and Time*</label>
+                                <input type="datetime-local" id="datetime" name="Date and Time" required>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="my-5" />
+                    <!---->
+                    <div class="row gx-xl-5">
+                        <div class="col-md-4">
+                          <h5>STEP 6: Additional</h5>
+                          <p class="text-muted">Give us a few last details.</p>
+                        </div>
+              
+                        <div class="col-md-8">
+                          <div class="mb-3">
+                            <label for="entrance" class="form-label">How can your cleaners get inside your home?*</label>
+                            <input type="text" class="form-control" id="entrance" name="Entrance" style="max-width: 500px;" required/>
+                          </div>
+                          <div class="mb-3">
+                            <label for="animals" class="form-label">Are there animals in the house?*</label>
+                            <input type="text" class="form-control" id="animals" name="Animals" style="max-width: 500px;" required/>
+                          </div>
+                          <div class="mb-3">
+                            <label for="flexible" class="form-label">Is your day/time flexible?*</label>
+                            <input type="text" class="form-control" id="flexible" name="Flexible Time" style="max-width: 500px;" required />
+                          </div>
+                          <div class="mb-3">
+                            <label for="notes" class="form-label">Any additional notes?</label>
+                            <textarea type="text" class="form-control" id="notes" name="Additional Notes" style="max-width: 500px;" rows="3"></textarea>
+                          </div>
+                        </div>
+                      </div>
+              
+                      <hr class="my-5" />
+                      <!---->
+                      <div class="row gx-xl-5">
+                        <div class="col-md-4">
+                          <h5>STEP 7: Payment</h5>
+                          <p class="text-muted">Choose a payment method and / or enter a discount code.</p>
+                        </div>
+              
+                        <div class="col-md-8">
+                          <div class="mb-3">
+                            <label for="code" class="form-label">Discount Code:</label>
+                            <input type="text" class="form-control" id="code" name="Code" style="max-width: 500px;" />
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12">
+                                <label for="method" class="form-label">Payment Method*</label>
+                                <select id="method" name="Payment Method" class="form-select mb-3" aria-label="Default select example" required>
+                                  <option selected value="Cash">Cash</option>
+                                  <option value="Card">Card</option>
+                                  <option value="Bank">Bank</option>
+                                </select>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+
+                  </div>
+                </div>
+          
+                <!-- Card footer -->
+                <div class="card-footer text-end py-4 px-5 bg-light border-0">
+                  <button type="submit" class="btn btn-primary btn-rounded">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="grid-wrapper-footer">
+            <div id="locations" class="footer-col">
+                <div class="col-h">Our company</div>
+                We are a team of excellent cleaners with over 7 years professional experience in the industry. We are covering :<br>
+                <ul>
+                    <li>- Reading</li>
+                    <li>- Wokingham</li>
+                    <li>- Bracknell</li>
+                </ul>
+            </div>
+            <div id="contacts" class="footer-col">
+                <div class="col-h">Contact us</div>
+                <ul>
+                    <li>
+                        <img src="images/phone.png">
+                        <a href="tel:+447563016044">+447563016044</a>
+                    </li>
+                    <li>
+                        <img src="images/mail.png">
+                        <a href="mailto:pristinecleaninguk@yahoo.com">pristinecleaninguk@yahoo.com</a>
+                    </li>
+                    <li>
+                        <img src="images/f.png">
+                        <a href="https://www.facebook.com/pristinecleaningreading">facebook.com/pristinecleaningreading</a>
+                    </li>
+                    <li>
+                        <img src="images/site.png">
+                        <a href="booking.html">https://www.pristinecleaninguk.com/</a>
+                    </li>
+                    <li>
+                        <img src="images/mark.png">
+                        <a href="https://www.google.com/maps/place/320+King's+Rd,+Reading+RG1+4JG,+%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F/@51.4529776,-0.9536288,17z/data=!3m1!4b1!4m5!3m4!1s0x48769b34020cfae3:0xda1c389bea6ed266!8m2!3d51.4529776!4d-0.9514401">320 King's Rd, Reading RG1 4JG, United Kingdom</a>
+                    </li>
+                </ul>                
+            </div>
+            <div id="opearations" class="footer-col">
+                <div class="col-h">Operating Hours</div>
+                <ul>
+                    <li>Mon - Fri: 8am - 8pm</li>
+                    <li>Saturday: 9am - 7pm</li>
+                    <li>​Sunday: 9am - 8pm</li>
+                </ul>
+            </div>
+            <div id="quick-ls" class="footer-col">
+                <div class="col-h">Quick Links</div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#why-us">Why Us</a></li>
+                    <li><a href="index.html#contacts-loc">Contacts</a></li>
+                    <li><a href="index.html#faq">FAQ</a></li>
+                    <li><a href="booking.html">Book Online</a></li>
+                </ul>
+            </div>
+            <hr>
+            <div class="copyright">© 2023 Pristine Cleaning | Reading</div>
+        </div>
+        
+    </footer>
+
+</body>
+
+</html>

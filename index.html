@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domestic cleaning | Pristine Cleaning UK</title>
+
+    <link href="styles/index.css" rel="stylesheet">
+    <link href="styles/carousel.css" rel="stylesheet">
+    <link href="styles/gmaps.css" rel="stylesheet">
+    <link href="styles/header.css" rel="stylesheet">
+    <link href="styles/footer.css" rel="stylesheet">
+    <link rel="icon" href="images/head_logo2.png" type="image/icon type">
+
+    <script src="scripts/header.js" defer></script>
+    <script src="scripts/index-scripts.js" defer></script>
+</head>
+<body>
+    <header id="header-container" class="header">
+        <div class="grid-wrapper-header">
+            <div class="info-section contact-row">
+                <a href="booking.html">Book Online Now</a> or Call For Any Questions:<a href="tel:+447563016044"> +447563016044</a> • Mon - Sun: 8am - 8pm
+            </div>
+            <div class="media-section contact-row">
+                <a href="https://www.facebook.com/pristinecleaningreading"><img src="images/facebook.png" alt="facebook"></a>
+            </div>
+            <div class="logo nav-row">
+                <a href="#"><img src="images/logo.png" alt="PristineCleaning"></a>
+            </div>
+            <nav class="header-nav nav-row">
+                <ul class="horizontal-nav">
+                    <li>
+                        <a href="#" class="active-tab">Home</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#why-us">Why Us</a>
+                    </li>
+                    <li>
+                        <a href="#contacts-loc">Contacts</a>
+                    </li>
+                    <li>
+                       <a href="#faq">FAQ</a>
+                   </li>
+                    <li>
+                        <a href="booking.html">Book Online</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="menu-btn" onclick="dropdown()" onchange=""><img src="images/menu.png"></div>
+            <div class="dropdown" id="dropdown">
+                <ul>
+                    <li>
+                        <hr>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <hr>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <hr>
+                        <a href="#why-us">Why Us</a>
+                    </li>
+                    <li>
+                        <hr>
+                        <a href="#contacts-loc">Contacts</a>
+                    </li>
+                    <li>
+                        <hr>
+                       <a href="#faq">FAQ</a>
+                   </li>
+                    <li>
+                        <hr>
+                        <a href="booking.html">Book Online</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    <main id="main-container">
+        <section id="banner">
+            <div id="banner-img">
+                <img id="background" src="images/bg1.png" alt="background">
+                <img id="vector" src="images/v1.png" alt="maid">
+                <img id="painting" src="images/painting.png" alt="painting">
+                <img id="lamp" src="images/lamp.png" alt="lamp">
+                <img id="shine" src="images/shine.png" alt="shine">
+            </div>
+            <div id="banner-text">
+                <h1>Give your home some shine</h1>
+                <h2>Reliable house cleaning professionals serving the Reading, Wokingham, Bracknell area.</h2>
+            </div>
+        </section>
+        <section id="contact-now">
+            <img src="images/phone2.png">
+            <a href="tel:+447563016044">+447563016044</a>
+        </section>
+        <section id="steps" class="steps">
+            <h3 class="title">How we work</h3>
+            <div class="step">
+                <img src="images/step1.png" alt="step 1">
+                <h4>1. Book Online / Call Us</h4>
+                <p>Choose the type of service, day and time, review the price offer, confirm your choice.</p>
+            </div>
+            <div class="step">
+                <img src="images/step2.png" alt="step 2">
+                <h4>2. We Clean</h4>
+                <p>Our professional cleaners will give your place some shine and get it in pristine condition.</p>
+            </div>
+            <div class="step">
+                <img src="images/step3.png" alt="step 3">
+                <h4>3. Save Your Time</h4>
+                <p>Save yourself time and effort and enjoy yourself instead or have more time to be productive.</p>
+            </div>
+        </section>
+        <section id="services" class="services">
+            <h3 class="title">Our Services</h3>
+            <div class="service s-1">
+                <img src="images/service1.png" alt="service 1">
+                <h4>Home Cleaning</h4>
+                <p>Give your home some shine with our top-quality professional cleaning service.</p>
+                <ul class="service-list">
+                    <li>Kitchens</li>
+                    <li>Bathrooms</li>
+                    <li>Bedrooms and living room</li>
+                    <li>Windows, blinds and carpets</li>
+                    <li>Appliances</li>
+                </ul>
+            </div>
+            <div class="service s-2">
+                <img src="images/service2.png" alt="service 2">
+                <h4>Maid Services</h4>
+                <p>Are you often too busy? We can handle the household chores for which you no longer have time.</p>
+                <ul class="service-list">
+                    <li>Laundry washing, drying, and folding</li>
+                    <li>Mopping and vacuuming</li>
+                    <li>Recycling the trash</li>
+                    <li>Dusting</li>
+                </ul>
+            </div>
+            <div class="service s-3">
+                <img src="images/service3.png" alt="service 3">
+                <h4>Move-In / Move-Out Cleaning</h4>
+                <p>Forget about the hassle of moving in / out. Our trusted professionals can take care of the cleaning.</p>
+                <ul class="service-list">
+                    <li>Cleaning out cabinets</li>
+                    <li>Removing nails and pins</li>
+                    <li>Dusting, mopping, vacuuming</li>
+                    <li>Cleaning appliances</li>
+                    <li>Disinfecting bathrooms and kitchens</li>
+                </ul>
+            </div>
+            <div class="service s-4">
+                <img src="images/service4.png" alt="service 4">
+                <h4>Commercial Cleaning</h4>
+                <p>We offer tailored commercial cleaning services so that you can focus on your growing business.</p>
+                <ul class="service-list">
+                    <li>Disinfecting restrooms, doorknobs, switches</li>
+                    <li>Dusting, mopping, vacuuming</li>
+                    <li>Cleaning appliances</li>
+                    <li>Cleaning windows and desks</li>
+                    <li>Recycling the trash</li>
+                </ul>
+            </div>
+            <hr class="separator">
+            <div id="schedule" class="schedule">
+                <div id="sch-info" class="sch-info">
+                    <h5>Work Time</h5>
+                    <p>We are available 7 days a week. Our work times are flexible and tailored in accordance with the needs of our customers.</p>
+                </div>
+                <div id="sch-times" class="sch-times">
+                    <h5 id="is-open" class="is-open">Schedule</h5>
+                    <ul>
+                        <li id="mon"><span class="sch-day">Monday</span><span class="sch-time">8:00 - 20:00</span><hr></li>
+                        <li id="tue"><span class="sch-day">Tuesday</span><span class="sch-time">8:00 - 20:00</span><hr></li>
+                        <li id="wed"><span class="sch-day">Wednesday</span><span class="sch-time">8:00 - 20:00</span><hr></li>
+                        <li id="thu"><span class="sch-day">Thursday</span><span class="sch-time">8:00 - 20:00</span><hr></li>
+                        <li id="fri"><span class="sch-day">Friday</span><span class="sch-time">8:00 - 20:00</span><hr></li>
+                        <li id="sat"><span class="sch-day">Saturday</span><span class="sch-time">9:00 - 19:00</span><hr></li>
+                        <li id="sun"><span class="sch-day">Sunday</span><span class="sch-time">9:00 - 20:00</span><hr></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="why-us" class="why-us">
+                <h3 class="title">Why Choose Us?</h3>
+                <p>We have been in the business for a long time and have gained valuable experiencee. Customer satisfaction and service quality are our main priorities. </p>
+                <ul class="points points-1">
+                    <li>
+                        <img class="num-icon" src="images/check.png">
+                        <span>Certified professional cleaners</span>
+                    </li>
+                    <li>
+                        <img class="num-icon" src="images/check.png">
+                        <span>Environmentally friendly cleaning</span>
+                    </li>
+                </ul>
+                <ul class="points points-2">
+                    <li>
+                        <img class="num-icon" src="images/check.png">
+                        <span>100% satisfaction guaranteed</span>
+                    </li>
+                    <li>
+                        <img class="num-icon" src="images/check.png">
+                        <span>Available evenings & weekends</span>
+                    </li>
+                </ul>
+        </section>
+        <hr class="separator">
+        <section class="slider-wrapper">
+            <h3 class="title">What clients say about us</h3>
+            <div>
+                <button class="slide-arrow" id="slide-arrow-prev">
+                    &#8249;
+                  </button>
+                  <button class="slide-arrow" id="slide-arrow-next">
+                    &#8250;
+                  </button>
+                  <ul class="slides-container" id="slides-container">
+                    <li class="slide">
+                      <div class="review">" Very happy to work with them, always on time, always amazing job done. I’ve requested a fortnight service, so my house is kept amazingly clean. " - Abbie</div>
+                      <div class="rating"><a href="https://www.bark.com/en/gb/company/pristine-cleaning-uk/Xj9mE/?show_reviews=true&utm_medium=referral&utm_source=Xj9mE&utm_campaign=seller-review-widget&utm_content=seller-review-widget"><img id="bark" src="images/bark2.png"></a></div>
+                    </li>
+                    <li class="slide">
+                      <div class="review">" We have been working with them for 2 months now and we are very pleased with the services we get. They have amazing attention to detail and everything they do is to a high standard. Highly recommend! " - Nick</div>
+                      <div class="rating"><a href="https://www.bark.com/en/gb/company/pristine-cleaning-uk/Xj9mE/?show_reviews=true&utm_medium=referral&utm_source=Xj9mE&utm_campaign=seller-review-widget&utm_content=seller-review-widget"><img id="bark" src="images/bark2.png"></a></div>
+                    </li>
+                    <li class="slide">
+                      <div class="review">" I don't know what have I've done without Pristine Cleaning UK. I needed an emergency deep cleaning, and they came the same day and I was stunned and so happy. Now I have them twice a week. Thank you guys! " - Thomas</div>
+                      <div class="rating"><a href="https://www.bark.com/en/gb/company/pristine-cleaning-uk/Xj9mE/?show_reviews=true&utm_medium=referral&utm_source=Xj9mE&utm_campaign=seller-review-widget&utm_content=seller-review-widget"><img id="bark" src="images/bark2.png"></a></div>
+                    </li>
+                  </ul>
+            </div> 
+          </section>
+        <section id="contacts-loc" class="contacts-loc">
+            <h3 class="title">Contact Us</h3>
+            <div id="map">
+                <div style="overflow:hidden;resize:none;max-width:100%;width:1000px;height:450px;">
+                    <div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;">
+                    <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=320+King's+Rd,+Reading+RG1+4JG,+United+Kingdom&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                    </div>
+                    <a class="google-maps-html" href="https://www.bootstrapskins.com/themes" id="enable-map-data">premium bootstrap themes</a>
+                  </div>
+            </div>
+            <div class="cont-info">
+                <ul class="conts">
+                    <li>
+                        <img src="images/phoneIco.png">
+                        <a href="tel:+447563016044">+447563016044</a>
+                    </li>
+                    <li>
+                        <img src="images/mailIco.png">
+                        <a href="mailto:pristinecleaninguk@yahoo.com">pristinecleaninguk@yahoo.com</a>
+                    </li>
+                    <li>
+                        <img src="images/faceIco.png">
+                        <a href="https://www.facebook.com/pristinecleaningreading">facebook.com/pristinecleaningreading</a>
+                    </li>
+                    <li>
+                        <img src="images/siteIco.png">
+                        <a href="booking.html">https://www.pristinecleaninguk.com/</a>
+                    </li>
+                    <li>
+                        <img src="images/markIco.png">
+                        <a href="https://www.google.com/maps/place/320+King's+Rd,+Reading+RG1+4JG,+%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F/@51.4529776,-0.9536288,17z/data=!3m1!4b1!4m5!3m4!1s0x48769b34020cfae3:0xda1c389bea6ed266!8m2!3d51.4529776!4d-0.9514401">320 King's Rd, Reading RG1 4JG, United Kingdom</a>
+                    </li>
+                    <li>
+                        <img src="images/barkIco.png">
+                        <a href="https://www.bark.com/en/gb/company/pristine-cleaning-uk/Xj9mE/?show_reviews=true&utm_medium=referral&utm_source=Xj9mE&utm_campaign=seller-review-widget&utm_content=seller-review-widget">https://www.bark.com/pristine-cleaning-uk</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </section>
+        <section id="faq">
+            <h3 class="title">Frequently asked questions</h3>
+            <div id="collapsibles">
+                <button type="button" class="collapsible">What are the prices?</button>
+                <div class="content">
+                    <p>Our prices are calculated according to the services that the client chooses and the area of the cleaning space. You can get an estimate by calling us or on our <a href="booking.html">Book Online</a>  page.</p>
+                </div>
+                <button type="button" class="collapsible">How and when do I pay for my cleaning services?</button>
+                <div class="content">
+                    <p>We accept all major credit cards and cash. You can pay after the service is complete.</p>        
+                </div>
+                <button type="button" class="collapsible">How many cleaners will come?</button>
+                <div class="content">
+                    <p>It depends on the size of the cleaning. We can send crews of between 1 - 6 cleaners to your cleaning.</p>
+                </div>
+                <button type="button" class="collapsible">Do the cleaners bring the cleaning supplies?</button>
+                <div class="content">
+                    <p>Yes, your cleaners can bring all supplies that are needed. If you want your cleaners to use your products then please make a note of that in your booking.</p>        
+                </div>
+                <button type="button" class="collapsible">Do the cleaners do laundry or the dishes?</button>
+                <div class="content">
+                    <p>Yes, we can send cleaners who can do both laundry, dishes, and even more.</p>        
+                </div>
+                <button type="button" class="collapsible">Will I have the same cleaner each visit?</button>
+                <div class="content">
+                    <p>Yes. We will send the same cleaner for each visit. We know how important it is to have someone you know and trust cleaning your home.</p>        
+                </div>
+                <button type="button" class="collapsible">Do I need to be home the day of cleaning?</button>
+                <div class="content">
+                    <p>This is up to you. Some clients prefer scheduling cleaning appointments while they are at work or away for the day, while others like to be at home during the process.</p>        
+                </div>
+                <button type="button" class="collapsible">Can I skip or reschedule an appointment?</button>
+                <div class="content">
+                    <p>Sure, you can change your booking at any time. You need to just contact us with the number of your reservation and the request for rescheduling.</p>        
+                </div>
+                <button type="button" class="collapsible">How will the cleaners enter my home on my scheduled days of cleaning?</button>
+                <div class="content">
+                    <p>That is up to you, whatever you feel most comfortable with.</p>        
+                </div>
+                <button type="button" class="collapsible">Do the cleaners clean outside my house such as backyard?</button>
+                <div class="content">
+                    <p>Normally your cleaners do not clean outside your house. However, depending on the situation and what exactly you need done, they might be able to clean the backyard for an additional fee. Please call us first and confirm your details before booking.</p>        
+                </div>
+                <button type="button" class="collapsible">What is your cancellation policy?</button>
+                <div class="content">
+                    <p>You can cancel or reschedule for free up to 24 hours before your appointment. If it is cancelled after the cleaners have already arrived then the appointment is subject to full charge of the original price.</p>        
+                </div>
+                <button type="button" class="collapsible">What if I am not satisfied with my cleaning?</button>
+                <div class="content">
+                    <p>Your complete satisfaction is very important. You must always contact us within 48 hours of the cleaning. Unfortunately no agency fees will be refunded after a cleaning. On a case-by-case basis, it is up to your cleaners' discretion to make an exception and provide a reclean.</p>        
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer id="footer" class="footer">
+        <div class="grid-wrapper-footer">
+            <div id="locations" class="footer-col">
+                <div class="col-h">Our company</div>
+                We are a team of excellent cleaners with over 7 years professional experience in the industry. We are covering :<br>
+                <ul>
+                    <li>- Reading</li>
+                    <li>- Wokingham</li>
+                    <li>- Bracknell</li>
+                </ul>
+            </div>
+            <div id="contacts" class="footer-col">
+                <div class="col-h">Contact us</div>
+                <ul>
+                    <li>
+                        <img src="images/phone.png">
+                        <a href="tel:+447563016044">+447563016044</a>
+                    </li>
+                    <li>
+                        <img src="images/mail.png">
+                        <a href="mailto:pristinecleaninguk@yahoo.com">pristinecleaninguk@yahoo.com</a>
+                    </li>
+                    <li>
+                        <img src="images/f.png">
+                        <a href="https://www.facebook.com/pristinecleaningreading">facebook.com/pristinecleaningreading</a>
+                    </li>
+                    <li>
+                        <img src="images/site.png">
+                        <a href="booking.html">https://www.pristinecleaninguk.com/</a>
+                    </li>
+                    <li>
+                        <img src="images/mark.png">
+                        <a href="https://www.google.com/maps/place/320+King's+Rd,+Reading+RG1+4JG,+%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F/@51.4529776,-0.9536288,17z/data=!3m1!4b1!4m5!3m4!1s0x48769b34020cfae3:0xda1c389bea6ed266!8m2!3d51.4529776!4d-0.9514401">320 King's Rd, Reading RG1 4JG, United Kingdom</a>
+                    </li>
+                </ul>
+                
+            </div>
+            <div id="opearations" class="footer-col">
+                <div class="col-h">Operating Hours</div>
+                <ul>
+                    <li>Mon - Fri: 8am - 8pm</li>
+                    <li>Saturday: 9am - 7pm</li>
+                    <li>​Sunday: 9am - 8pm</li>
+                </ul>
+            </div>
+            <div id="quick-ls" class="footer-col">
+                <div class="col-h">Quick Links</div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#why-us">Why Us</a></li>
+                    <li><a href="index.html#contacts-loc">Contacts</a></li>
+                    <li><a href="index.html#faq">FAQ</a></li>
+                    <li><a href="booking.html">Book Online</a></li>
+                </ul>
+            </div>
+            <hr>
+            <div class="copyright">© 2023 Pristine Cleaning | Reading</div>
+        </div>
+        
+    </footer>
+</body>
+
+</html>
